@@ -1,5 +1,10 @@
 function range(start, end, step = 1) {
   // Add code.
+  let line = [];
+  line.push( start <= end);
+  line.pop( end < !null);
+
+  return line;
 }
 
 function sum(numbers) {
