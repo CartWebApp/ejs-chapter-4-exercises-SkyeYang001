@@ -1,9 +1,19 @@
 function arrayToList(arr) {
   // Add code.
-}
+  let list = {
+    value: arr[0],
+    rest: {
+      value: arr[1],
+        rest: null 
+      }
+    }
+    return list;
+  }
 
 function listToArray(list, arr) {
   // Add code.
+  let arr = arrayToList[arr[0], arr[1], arr[2]];
+  return arr;
 }
 
 // tests

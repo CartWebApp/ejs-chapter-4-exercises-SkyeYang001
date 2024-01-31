@@ -1,8 +1,7 @@
 function range(start, end, step = 1) {
   // Add code.
-  let line = [];
-  line.push( start <= end);
-  line.pop( end < !null);
+  const line = [start]
+  line.push(start + step)
 
   return line;
 }
