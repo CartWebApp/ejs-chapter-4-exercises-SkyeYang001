@@ -1,6 +1,16 @@
 function deepEqual(value, reference) {
   // Add code.
+  if (value === reference) {
+    return true;
+  }
+  else if (value  != reference) {
+    return false;
+  }
   
+  else () {
+    return true;
+  }
+
 }
 
 

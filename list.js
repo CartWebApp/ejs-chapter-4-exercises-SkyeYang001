@@ -11,9 +11,20 @@ function arrayToList(arr) {
   }
 
 function listToArray(list, arr) {
-  // Add code.
-  let arr = arrayToList[arr[0], arr[1], arr[2]];
-  return arr;
+  // Add code. 
+  let numlist = {
+    value: list[0],
+    rest: {
+      value: list[1],
+      rest: {
+        value: list[2],
+        rest: null
+      }
+    }
+  }
+
+  return numlist[value];
+
 }
 
 // tests
